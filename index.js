@@ -20,9 +20,9 @@ const x = new Error(console.log(myStudent.y))
 
 // alert(y)
 document.getElementById("firstname").innerHTML += `  <h1>${myStudent.firstName}</h1>`;
-document.getElementById("lastname").innerHTML += myStudent.lastName;
-document.getElementById("username").innerHTML += myStudent.userName;
-document.getElementById("regnum").innerHTML += myStudent.regNum()
+document.getElementById("lastname").innerHTML += `  <h1>${myStudent.lastName}</h1>`;
+document.getElementById("username").innerHTML +=  `  <h1>${myStudent.userName}</h1>`;
+document.getElementById("regnum").innerHTML +=  `  <h1>${myStudent.regNum()}</h1>`
 let profile = document.getElementById('profile');
         let file = document.getElementById('file');
 
